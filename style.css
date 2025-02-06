@@ -1,0 +1,168 @@
+/* General Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000016;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.683);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: #dfdfdf;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.683);
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Home Section */
+/* About Section */
+.about {
+    margin: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.about h1 {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-underline-offset: 0.5rem;
+    font-size: 3rem;
+    /* Adjusted for responsiveness */
+    text-align: right;
+}
+
+
+/* Profile Picture */
+.pfp {
+    height: 250px;
+    /* Optimized for different screens */
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.pfp img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.para {
+    line-height: 25px;
+    color: #fff;
+    width: 750px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Space to avoid overlapping with navbar */
+    gap: 20px;
+}
+
+.projects {
+    background-color: #1a43b1;
+    color: #fff;
+}
+
+/* Projects Section */
+.projects h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container:hover {
+    height: 210px;
+    width: 310px;
+}
+
+.container {
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    background-color: #000016;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container button {
+    background-color: #4274ff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
+
+.container button:hover {
+    box-shadow: 0 0 25px #dfdfdfae;
+}
+
+.contact {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.contact svg {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contact a:hover {
+    text-decoration: none;
+    color: #1a43b1;
+}
